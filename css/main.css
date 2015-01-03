@@ -1,0 +1,361 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  	background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+	opacity: 0.8;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #58bbbf;
+}
+
+.navbar-brand {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 24px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-brand span {
+	vertical-align: middle;
+}
+
+.logo-left {
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #58bbbf;
+	border-color: transparent;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.btn-theme:hover {
+	color: #ffffff;
+	background-color: #33a0a4;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#hello h1 {
+	font-size: 64px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #58bbbf;
+}
+
+#hello h2 {
+	color: #58bbbf;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+#hello h3 {
+	font-weight: 400;
+	color: #c0c0c0;
+}
+
+#hello h4 {
+	margin-top: 36px;
+	margin-bottom: 48px;
+	font-weight: 400;
+	color: #c0c0c0;
+}
+
+/* About Overview */
+#overview {
+	background-color: #58bbbf;
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+#overview h3 {
+	color: white;
+	font-weight: 800;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#overview hr {
+	width: 128px;
+	background-color: #FFF;
+	height: 2px;
+}
+
+#overview p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 48px;
+}
+
+/* PROJECTS */
+#projects {
+	margin-bottom: 36px;
+}
+
+#projects h3 {
+	color: #4e4e4e;
+	font-weight: 800;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#projects h4 {
+	color: #4e4e4e;
+	font-weight: 600;
+}
+
+#projects hr {
+	margin: 0 auto;
+	width: 116px;
+	background-color: #4e4e4e;
+	height: 2px;
+}
+
+#projects .quartz {
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: left;
+	height: 455px;
+}
+
+#projects p {
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 0px;
+}
+
+#projects img {
+	opacity: 1;
+	width: 320px;
+	height: 320px;
+}
+
+/* Alumni */
+#alumni {
+	background-color: #58bf88;
+	padding-top: 12px;
+	padding-bottom: 48px;
+	margin-bottom: 0px;
+}
+
+#alumni h3 {
+	color: white;
+	font-weight: 800;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#alumni hr {
+	width: 142px;
+	background-color: #FFF;
+	height: 2px;
+	margin: 0 auto;
+}
+
+#alumni p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 48px;
+}
+
+#alumni img {
+	opacity: 0.9;
+	width: 120px;
+	height: 120px;
+	margin: 0 24px;
+}
+
+/* Skills */
+#skills {
+	background-color: #4e4e4e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#skills h3 {
+	color: white;
+	font-weight: 800;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#skills hr {
+	width: 142px;
+	background-color: #FFF;
+	height: 2px;
+	margin: 0 auto;
+}
+
+#skills p {
+	color: white;
+	font-weight: 400;
+}
+
+/* Social Links */
+#social {
+	width: 100%;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#social i {
+	font-size: 50px;
+	color: #58bbbf;
+}
+
+#social .col-md-3:hover {
+	background-color: #f5f5f5;
+}
+
+#social .col-md-3 {
+	padding:30px;
+}
+
+/* Footer */
+#vancouver {
+	background: url('../img/section-sunset.jpg') no-repeat 0 0;
+	background-size: cover;
+	height: 480px;
+	padding-top: 360px;
+}
+
+#vancouver h3 {
+	color: white;
+	font-weight: 800;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+/* Footer */
+#f {
+	padding-top: 20px;
+}
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
